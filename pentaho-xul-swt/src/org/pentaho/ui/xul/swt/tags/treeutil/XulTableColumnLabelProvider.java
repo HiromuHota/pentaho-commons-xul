@@ -139,7 +139,7 @@ public class XulTableColumnLabelProvider implements ITableLabelProvider {
     shell.getDisplay().syncExec( new Runnable() {
       @Override public void run() {
         shell.getDisplay().readAndDispatch();
-        gc.copyArea( image, 0, 0 );
+        //gc.copyArea( image, 0, 0 );
         gc.dispose();
       }
     } );

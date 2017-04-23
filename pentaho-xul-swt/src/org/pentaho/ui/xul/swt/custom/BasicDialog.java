@@ -64,7 +64,7 @@ public class BasicDialog extends TitleAreaDialog {
 
     contentArea = (Composite) super.createContents( parent );
     // TODO This should be dependent on whether we want to set up the header or not...
-    //getTitleImageLabel().dispose();
+    getTitleImageLabel().dispose();
 
     return contentArea;
   }

@@ -5,7 +5,7 @@
 
   <artifactId>commons-xul-swt</artifactId>
   <packaging>jar</packaging>
-  <version>8.1.0.0-365</version>
+  <version>8.1.0.0-365-16</version>
 
   <name>Commons XUL SWT</name>
 
@@ -26,7 +26,7 @@
     <dependency>
       <groupId>org.pentaho</groupId>
       <artifactId>commons-xul-core</artifactId>
-      <version>${project.version}</version>
+      <version>${project.parent.version}</version>
     </dependency>
 
     <dependency>
